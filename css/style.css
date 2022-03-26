@@ -10,8 +10,8 @@
 
 /*FORMATAÇÕES GERAIS*/
 body, html{
+    scroll-behavior: smooth;
     margin: 0;
-    /*font: 16px "Lato", sans-serif;*/
     font: 20px "BW Modelica Medium";
     color: #777;
     height: 100%;
@@ -32,7 +32,7 @@ body, html{
 #navegacao-horizontal a, a:visited {
     color: white;
     text-decoration: none;
-    margin-left: 50px;
+    /*margin-left: 30px;*/
 }
 
 #navegacao-horizontal a:hover {
@@ -81,7 +81,7 @@ h2 {
 }
 
 #home {
-    background-image: url(../images/home-capa-11.jpg);
+    background-image: url(../images/home-capa-33.jpg);
 }
 
 #local {
