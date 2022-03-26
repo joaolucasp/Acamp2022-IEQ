@@ -25,8 +25,8 @@ body, html{
     background: black;
     text-align: center;
     text-transform: uppercase;
-    height: 4%;
-    line-height: 37px;
+    padding: 5px;
+    line-height: 30px;
 }
 
 #navegacao-horizontal a, a:visited {
@@ -50,7 +50,7 @@ h2 {
 }
 
 .titulo-do-conteudo {
-    position: absolute;
+    position: relative;
     top: 45%;
     width: 100%;
     text-transform: uppercase;
@@ -61,7 +61,7 @@ h2 {
     background-color: rgb(0, 0, 0);
     padding: 18px;
     color: #fff;
-    font-size: 25px;
+    font-size: 1.5em;
     letter-spacing: 10px;
 }
 /*-------------------*/
