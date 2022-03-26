@@ -1,0 +1,17 @@
+@keyframes animacao-carrossel {
+    0% {margin-left: 0; }
+    8% {margin-left: 0; }
+    11% {margin-left: -100%; }
+    23% {margin-left: -100%; }
+    26% {margin-left: -201%; }
+    38% {margin-left: -201%; }
+    41% {margin-left: -302%; }
+    53% {margin-left: -302%; }
+    56% {margin-left: -403%; }
+    68% {margin-left: -403%; }
+    71% {margin-left: -504%; }
+    83% {margin-left: -504%; }
+    86% {margin-left: -604%; }
+    96% {margin-left: -604%; }
+    100% {margin-left: -706%; }
+}

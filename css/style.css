@@ -1,0 +1,152 @@
+@font-face{
+    font-family: "BW Modelica Medium";
+    src: url("../fonts/BwModelica-Medium.woff");
+}
+
+@font-face{
+    font-family: "BW Modelica Light";
+    src: url("../fonts/BwModelica-Light.woff");
+}
+
+/*FORMATAÇÕES GERAIS*/
+body, html{
+    margin: 0;
+    /*font: 16px "Lato", sans-serif;*/
+    font: 20px "BW Modelica Medium";
+    color: #777;
+    height: 100%;
+    width: 100%;
+}
+/*-------------------*/
+
+
+/*NAVEGAÇÃO DO SITE*/
+#navegacao-horizontal {
+    background: black;
+    text-align: center;
+    text-transform: uppercase;
+    height: 4%;
+    line-height: 37px;
+}
+
+#navegacao-horizontal a, a:visited {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+#navegacao-horizontal a:hover {
+    background-color: white;
+    color: black;
+}
+
+/*------------------*/
+
+/*FORMATAÇÕES DE TEXTO*/
+h2 {
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+.titulo-do-conteudo {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.titulo-do-conteudo span.titulo{
+    background-color: rgb(0, 0, 0);
+    padding: 18px;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+/*-------------------*/
+
+
+/*EFEITO PARALLAX*/
+#home, #local, #oque-levar, #inscricao {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    height: 100%;
+    opacity: 0.9;
+}
+
+#home {
+    background-image: url(../images/home-capa-11.jpg);
+}
+
+#local {
+    background-image: url(../images/local-capa-1.jpg);
+}
+
+#oque-levar {
+    background-image: url(../images/oque-levar-capa-3.jpg);
+}
+
+#inscricao {
+    background-image: url(../images/inscricao-2.png);
+    
+}
+.link-inscricao {
+    text-decoration: none;
+}
+
+.link-inscricao a:link, a:visited {
+    color: #fff;
+}
+/*-------------------*/
+
+
+/*FORMATAÇÃO DOS CONTEÚDOS DAS PAGINAS*/
+#home-conteudo {
+    font: 20px "BW Modelica Light";
+    color: rgb(53, 53, 53);
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+#local-conteudo {
+    font: 20px "BW Modelica Light";
+    color: rgb(53, 53, 53);
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+#oque-levar-conteudo {
+    font: 20px "BW Modelica Light";
+    color: rgb(53, 53, 53);
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+/*------------------------------------*/
+
+/*CARROSSEL*/
+.galeria {
+    width: 670px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.galeria .fotos {
+    width: 1000%;
+    animation-name: animacao-carrossel;
+    animation-duration: 32s;
+    animation-iteration-count: infinite;
+}
+
+.galeria .fotos img{
+    width: 10%;
+}
+/*-----------------*/
