@@ -50,7 +50,7 @@ h2 {
 }
 
 .titulo-do-conteudo {
-    position: relative;
+    position: absolute;
     top: 45%;
     width: 100%;
     text-transform: uppercase;
@@ -59,7 +59,9 @@ h2 {
 
 .titulo-do-conteudo span.titulo{
     background-color: rgb(0, 0, 0);
-    padding: 18px;
+    display: inline-block;
+    padding: 15px;
+    line-height: 40px;
     color: #fff;
     font-size: 1.5em;
     letter-spacing: 10px;
@@ -133,8 +135,9 @@ h2 {
 
 /*CARROSSEL*/
 .galeria {
-    width: 670px;
-    height: 500px;
+    /*width: 670px;
+    height: 500px;*/
+    width: 50%;
     overflow: hidden;
     border-radius: 5px;
 }
@@ -150,3 +153,11 @@ h2 {
     width: 10%;
 }
 /*-----------------*/
+
+/*MAPS*/
+.maps {
+    width: 50%;
+    height: 500px;
+}
+
+/*----------------*/
